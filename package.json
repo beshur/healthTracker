@@ -1,0 +1,26 @@
+{
+  "name": "healthtracker",
+  "version": "0.1.0",
+  "description": "Module that allows registering for health-check requests",
+  "main": "healthTracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beshur/healthTracker.git"
+  },
+  "keywords": [
+    "health-checker",
+    "microservice"
+  ],
+  "author": "Alex Buznik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beshur/healthTracker/issues"
+  },
+  "homepage": "https://github.com/beshur/healthTracker#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
