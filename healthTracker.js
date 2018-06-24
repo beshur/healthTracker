@@ -142,8 +142,7 @@ class healthTracker extends EventEmitter {
 		} else {
 			options.checkInterval = 1;
 		}
-		// options.checkInterval = options.checkInterval * 60 * 1000;
-		options.checkInterval = 1000;
+		options.checkInterval = options.checkInterval * 60 * 1000;
 		this.options = options;
 		this.start();
 	}
